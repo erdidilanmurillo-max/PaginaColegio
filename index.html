@@ -1,0 +1,1053 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta name="theme-color" content="#003B73">
+    <meta name="description" content="Institución Educativa República de Israel - Educación con excelencia e innovación en Cali.">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Institución Educativa República de Israel</title>
+    <link rel="icon" type="image/JPG" href="img/logo.JPG">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+</head>
+
+<body>
+
+    <!-- LOADER -->
+    <div class="loader">
+        <div class="loader-circle"></div>
+    </div>
+
+
+    <!-- POPUP -->
+    <div class="popup" id="popup">
+
+        <div class="popup-content">
+
+            <span class="close-popup" id="closePopup">×</span>
+
+            <h2>Bienvenidos</h2>
+
+            <p>
+                Bienvenido a la Institución Educativa República de Israel.
+                Descubre nuestra comunidad académica y proyectos.
+            </p>
+
+            <button type="button" id="popupButton">
+                Explorar
+            </button>
+
+        </div>
+
+    </div>
+
+
+<!-- ======================================== -->
+<!-- HEADER -->
+<!-- ======================================== -->
+
+<header>
+
+    <nav class="navbar">
+
+        <!-- LOGO -->
+
+        <div class="logo">
+
+            <img
+                src="img/logo.JPG"
+                alt="Logo Colegio"
+                class="logo-img"
+                loading="lazy">
+
+            <div class="logo-text">
+
+                <h2>
+                    Institución Educativa<br>
+                    República de Israel
+                </h2>
+
+                <span>1965</span>
+
+            </div>
+
+        </div>
+
+<!-- NAV LINKS -->
+
+<ul class="nav-links" id="navLinks">
+
+    <li class="active-link">
+        <a href="PAGINA-COLEGIO/index.html">Inicio</a>
+    </li>
+
+    <!-- NOSOTROS -->
+
+    <li class="dropdown">
+
+        <a href="#">
+            Nosotros
+            <i class="fas fa-chevron-down"></i>
+        </a>
+
+        <ul class="dropdown-menu">
+
+            <li><a href="Apartados/Nosotros/Historia.html">Historia</a></li>
+
+            <li><a href="Apartados/Nosotros/Mision.html">Misión y Visión</a></li>
+
+            <li><a href="Apartados/Nosotros/Directivos.html">Directivos</a></li>
+
+        </ul>
+
+    </li>
+
+    <!-- ADMISIONES -->
+
+    <li class="dropdown">
+
+        <a href="#">
+            Admisiones
+            <i class="fas fa-chevron-down"></i>
+        </a>
+
+        <ul class="dropdown-menu">
+
+            <li><a href="Apartados/Admisiones/Porque.html">¿Por qué elegirnos?</a></li>
+
+            <li><a href="Apartados/Admisiones/Preguntas.html">Preguntas Frecuentes</a></li>
+
+            <li><a href="Apartados/Admisiones/Contratacion.html">Contratación</a></li>
+
+            <li><a href="Apartados/Admisiones/Inscripciones.html">Inscripciones</a></li>
+
+        </ul>
+
+    </li>
+
+    <!-- IERI GARDEN -->
+
+    <li>
+        <a href="Apartados/IERI Garden/Transicion.html">
+            IERI Garden
+        </a>
+    </li>
+
+    <!-- SECCIONES -->
+
+    <li class="dropdown">
+
+        <a href="#">
+            Secciones
+            <i class="fas fa-chevron-down"></i>
+        </a>
+
+        <ul class="dropdown-menu">
+
+            <li><a href="Apartados/Secciones/Primaria.html">Primaria</a></li>
+
+            <li><a href="Apartados/Secciones/Secundaria.html">Secundaria</a></li>
+
+            <li><a href="Apartados/Secciones/Bachiller.html">Bachillerato</a></li>
+
+            <li><a href="Apartados/Secciones/MediaT.html">Media Técnica</a></li>
+
+            <li><a href="Apartados/Secciones/Centro.html">Centro de Interés</a></li>
+
+        </ul>
+
+    </li>
+
+    <!-- BIENESTAR -->
+
+    <li class="dropdown">
+
+        <a href="#">
+            Bienestar
+            <i class="fas fa-chevron-down"></i>
+        </a>
+
+        <ul class="dropdown-menu">
+
+            <li><a href="Apartados/Bienestar/Psicorientacion.html">Psicorientación</a></li>
+
+            <li><a href="Apartados/Bienestar/Manual.html">Manual de Convivencia</a></li>
+
+            <li><a href="Apartados/Bienestar/Salud.html">Salud</a></li>
+
+        </ul>
+
+    </li>
+
+    <!-- COMUNIDAD -->
+
+    <li class="dropdown">
+
+        <a href="#">
+            Comunidad
+            <i class="fas fa-chevron-down"></i>
+        </a>
+
+        <ul class="dropdown-menu">
+
+            <li><a href="Apartados/Comunidad/Padres.html">Padres</a></li>
+
+            <li><a href="Apartados/Comunidad/ConsejoE.html">Consejo Estudiantil</a></li>
+
+            <li><a href="Apartados/Comunidad/Egresados.html">Egresados</a></li>
+
+        </ul>
+
+    </li>
+
+</ul>
+
+<!-- MENU MOBILE -->
+
+<button
+    class="menu-toggle"
+    id="menuToggle"
+    aria-label="Abrir menú">
+
+    <i class="fas fa-bars"></i>
+
+</button>
+
+</nav>
+
+</header>
+
+  <!-- ======================================== -->
+<!-- HERO SECTION -->
+<!-- ======================================== -->
+
+<section class="hero" id="inicio">
+
+    <!-- VIDEO -->
+
+    <video
+        autoplay
+        muted
+        loop
+        playsinline
+        class="hero-video">
+
+        <source src="videos/video.mp4" type="video/mp4">
+
+    </video>
+
+
+    <!-- OVERLAY -->
+
+    <div class="overlay"></div>
+
+
+    <!-- CONTENT -->
+
+    <div class="hero-content">
+
+        <span class="hero-tag">
+            Excelencia • Innovación • Futuro
+        </span>
+
+        <h1>
+            Formamos
+            <span>líderes</span>
+            para el futuro
+        </h1>
+
+        <p>
+            Educación integral enfocada en valores,
+            innovación y excelencia académica para
+            preparar estudiantes con visión global,
+            liderazgo y grandes oportunidades.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#" class="hero-btn primary-btn">
+                Conoce Más
+            </a>
+
+            <a href="#footer" class="hero-btn secondary-btn">
+                Contáctanos
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <!-- SCROLL INDICATOR -->
+
+    <div class="scroll-indicator">
+
+        <div class="scroll-mouse"></div>
+
+        <span>SCROLL</span>
+
+    </div>
+
+</section>
+
+    <!-- ======================================== -->
+<!-- HERO LINKS -->
+<!-- ======================================== -->
+
+<section class="hero-links">
+
+    <!-- CONTACTO -->
+
+    <a href="#footer" class="hero-link">
+
+        <div class="hero-link-icon">
+
+            <i class="fas fa-envelope"></i>
+
+        </div>
+
+        <div class="hero-link-text">
+
+            <h3>Contáctanos</h3>
+
+            <p>Estamos listos para ayudarte</p>
+
+        </div>
+
+    </a>
+
+
+    <!-- UBICACION -->
+
+    <a
+        href="https://www.google.com/maps/place/Institucion+Educativa+Republica+de+Israel/@3.4630825,-76.5082985,3a,75y,320.65h,83.72t/data=!3m7!1e1!3m5!1sjW-3ZNr1ZyR_CH9acQ37Jw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D6.281759525427418%26panoid%3DjW-3ZNr1ZyR_CH9acQ37Jw%26yaw%3D320.6538595555974!7i16384!8i8192!4m6!3m5!1s0x8e30a636009ed23b:0x8c02a118da31fc43!8m2!3d3.4631321!4d-76.5083638!16s%2Fg%2F1z449whrv?entry=ttu&g_ep=EgoyMDI2MDUyMC4wIKXMDSoASAFQAw%3D%3D"
+        target="_blank"
+        class="hero-link">
+
+        <div class="hero-link-icon">
+
+            <i class="fas fa-location-dot"></i>
+
+        </div>
+
+        <div class="hero-link-text">
+
+            <h3>Visita nuestro colegio</h3>
+
+            <p>Conoce nuestras instalaciones</p>
+
+        </div>
+
+    </a>
+
+
+    <!-- ADMISIONES -->
+
+    <a href="#" class="hero-link">
+
+        <div class="hero-link-icon">
+
+            <i class="fas fa-user-graduate"></i>
+
+        </div>
+
+        <div class="hero-link-text">
+
+            <h3>Admisiones</h3>
+
+            <p>Aplica para formar parte</p>
+
+        </div>
+
+    </a>
+
+</section>
+
+
+
+<!-- ESTADÍSTICAS -->
+<section class="stats-section">
+
+    <div class="stats-header">
+
+        <span class="stats-badge">
+            <i class="fa-solid fa-chart-column"></i>
+            Datos reales
+        </span>
+
+        <p class="stats-title-small">
+            Mira nuestras
+        </p>
+
+        <h2 class="stats-title-main">
+            estadísticas <span>actuales</span>
+        </h2>
+
+        <p class="stats-subtitle">
+            Un vistazo rápido al impacto de nuestra institución educativa,
+            reflejando crecimiento, experiencia y compromiso académico.
+        </p>
+
+    </div>
+
+    <div class="stats">
+
+        <!-- CARD -->
+        <article class="stat-box">
+
+            <div class="stat-icon">
+                <i class="fa-solid fa-user-graduate"></i>
+            </div>
+
+            <h3 class="counter" data-target="600">0</h3>
+
+            <p>Estudiantes</p>
+
+        </article>
+
+        <!-- CARD -->
+        <article class="stat-box">
+
+            <div class="stat-icon">
+                <i class="fa-solid fa-chalkboard-user"></i>
+            </div>
+
+            <h3 class="counter" data-target="30">0</h3>
+
+            <p>Docentes</p>
+
+        </article>
+
+        <!-- CARD -->
+        <article class="stat-box">
+
+            <div class="stat-icon">
+                <i class="fa-solid fa-diagram-project"></i>
+            </div>
+
+            <h3 class="counter" data-target="20">0</h3>
+
+            <p>Proyectos</p>
+
+        </article>
+
+        <!-- CARD -->
+        <article class="stat-box">
+
+            <div class="stat-icon">
+                <i class="fa-solid fa-award"></i>
+            </div>
+
+            <h3 class="counter" data-target="60">0</h3>
+
+            <p>Años de experiencia</p>
+
+        </article>
+
+    </div>
+
+</section>
+
+<!-- ========================================
+VALORES MODERNO
+======================================== -->
+
+<section class="values-section">
+
+    <!-- FONDO AZUL -->
+
+    <div class="values-top-shape">
+
+        <!-- LOGO -->
+
+        <div class="values-logo">
+
+            <img src="img/logo.JPG" alt="Logo Colegio">
+
+        </div>
+
+    </div>
+
+
+    <!-- CONTENIDO -->
+
+    <div class="values-content">
+
+        <!-- TITULO -->
+
+        <div class="values-title-modern">
+
+            <h3>NUESTROS</h3>
+
+            <h1>Valores</h1>
+
+        </div>
+
+
+        <!-- TEXTO -->
+
+        <div class="values-text">
+
+            <p>
+                Queremos que los valores que vivimos
+                en nuestra institución trasciendan
+                para impactar positivamente a la sociedad
+                y marcar la diferencia.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- CARDS -->
+
+    <div class="values-modern-grid">
+
+        <!-- RESPETO -->
+
+<div
+class="value-modern-card"
+style="--color:#003B73;"
+data-color="#003B73"
+data-title="Respeto"
+data-text="Fomentamos relaciones basadas en la tolerancia, la empatía y la sana convivencia.">
+
+    <div class="value-modern-icon">
+
+        <i class="fas fa-handshake"></i>
+
+    </div>
+
+    <h2>Respeto</h2>
+
+</div>
+
+
+
+<!-- INTEGRIDAD -->
+
+<div
+class="value-modern-card"
+style="--color:#00AEEF;"
+data-color="#00AEEF"
+data-title="Integridad"
+data-text="Actuamos con honestidad, responsabilidad y coherencia en cada acción.">
+
+    <div class="value-modern-icon">
+
+        <i class="fas fa-shield-heart"></i>
+
+    </div>
+
+    <h2>Integridad</h2>
+
+</div>
+
+
+
+<!-- EXCELENCIA -->
+
+<div
+class="value-modern-card"
+style="--color:#00A651;"
+data-color="#00A651"
+data-title="Excelencia"
+data-text="Buscamos siempre la mejor versión de nosotros mismos en lo académico y humano.">
+
+    <div class="value-modern-icon">
+
+        <i class="fas fa-award"></i>
+
+    </div>
+
+    <h2>Excelencia</h2>
+
+</div>
+
+
+
+<!-- INNOVACION -->
+
+<div
+class="value-modern-card"
+style="--color:#FFC107;"
+data-color="#FFC107"
+data-title="Innovación"
+data-text="Promovemos ideas creativas y nuevas formas de aprender y transformar el entorno.">
+
+    <div class="value-modern-icon">
+
+        <i class="fas fa-lightbulb"></i>
+
+    </div>
+
+    <h2>Innovación</h2>
+
+</div>
+
+
+
+<!-- LIDERAZGO -->
+
+<div
+class="value-modern-card"
+style="--color:#FF6B00;"
+data-color="#FF6B00"
+data-title="Liderazgo"
+data-text="Inspiramos a nuestra comunidad a trabajar en equipo y generar cambios positivos.">
+
+    <div class="value-modern-icon">
+
+        <i class="fas fa-users"></i>
+
+    </div>
+
+    <h2>Liderazgo</h2>
+
+</div>
+
+
+
+<!-- COMUNIDAD -->
+
+<div
+class="value-modern-card"
+style="--color:#E91E63;"
+data-color="#E91E63"
+data-title="Comunidad"
+data-text="Fortalecemos los lazos de unión, solidaridad y sentido de pertenencia institucional.">
+
+    <div class="value-modern-icon">
+
+        <i class="fas fa-heart"></i>
+
+    </div>
+
+    <h2>Comunidad</h2>
+
+</div>
+</section>
+
+   <!-- REDES SOCIALES -->
+
+<div class="social-container">
+
+    <div class="social-text">
+        Síguenos
+    </div>
+
+    <div class="social-bar">
+
+        <a href="https://www.facebook.com/profile.php?id=100071049612506" target="_blank" class="social facebook">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+
+        <a href="https://www.instagram.com/ieri_cali/" target="_blank" class="social instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+
+        <a href="https://www.tiktok.com/@bio.cyclo.ieri" target="_blank" class="social tiktok">
+            <i class="fab fa-tiktok"></i>
+        </a>
+
+    </div>
+
+</div>
+
+<!-- ======================================== -->
+<!-- SECCIONES ACADEMICAS -->
+<!-- ======================================== -->
+
+<section class="academic-section">
+
+    <!-- TITULO -->
+
+    <div class="academic-title">
+
+        <span>Conozca las</span>
+
+        <h2>Secciones Académicas</h2>
+
+    </div>
+
+
+    <!-- CONTENEDOR -->
+
+    <div class="academic-container">
+
+
+        <!-- PREESCOLAR -->
+
+        <div class="academic-card preescolar">
+
+            <div class="academic-label">
+
+                <h3>Preescolar</h3>
+
+            </div>
+
+            <div class="academic-image">
+
+                <img src="img/preescolar.png" alt="Preescolar">
+
+                <div class="academic-info">
+
+                    <p>Transición</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- PRIMARIA -->
+
+        <div class="academic-card primaria">
+
+            <div class="academic-label">
+
+                <h3>Primaria</h3>
+
+            </div>
+
+            <div class="academic-image">
+
+                <img src="img/primaria.png" alt="Primaria">
+
+                <div class="academic-info">
+
+                    <p>1° • 2° • 3° • 4° • 5°</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- SECUNDARIA BASICA -->
+
+        <div class="academic-card secundaria">
+
+            <div class="academic-label">
+
+                <h3>Secundaria Basica</h3>
+
+            </div>
+
+            <div class="academic-image">
+
+                <img src="img/secundaria.JPG" alt="Secundaria">
+
+                <div class="academic-info">
+
+                    <p>6° • 7° • 8° • 9°</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- SECUNDARIA SUPERIOR -->
+
+        <div class="academic-card bachiller">
+
+            <div class="academic-label">
+
+                <h3>Secundaria Superior</h3>
+
+            </div>
+
+            <div class="academic-image">
+
+                <img src="img/bachiller.png" alt="Bachiller">
+
+                <div class="academic-info">
+
+                    <p>10° • 11°</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- MEDIA TECNICA -->
+
+        <div class="academic-card tecnica">
+
+            <div class="academic-label">
+
+                <h3>Media Técnica</h3>
+
+            </div>
+
+            <div class="academic-image">
+
+                <img src="img/media-tecnica.png" alt="Media Técnica">
+
+                <div class="academic-info">
+
+                    <p>10° • 11°</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- ======================================== -->
+<!-- FOOTER -->
+<!-- ======================================== -->
+
+<footer class="footer" id="footer">
+
+    <div class="footer-container">
+
+        <!-- INFO -->
+
+        <div class="footer-box">
+
+            <div class="footer-logo">
+
+                <img
+                    src="img/logo.JPG"
+                    alt="Logo Colegio">
+
+                <div>
+
+                    <h2>
+                        República de Israel
+                    </h2>
+
+                    <span>
+                        Institución Educativa
+                    </span>
+
+                </div>
+
+            </div>
+
+            <p>
+                Formamos estudiantes íntegros
+                con excelencia, innovación
+                y liderazgo para el futuro.
+            </p>
+
+        </div>
+
+
+        <!-- ENLACES -->
+
+        <div class="footer-box">
+
+            <h3>Enlaces rápidos</h3>
+
+            <a href="#">Inicio</a>
+
+            <a href="#">Nosotros</a>
+
+            <a href="#">Admisiones</a>
+
+            <a href="#">Calendario</a>
+
+        </div>
+
+
+        <!-- CONTACTO -->
+
+        <div class="footer-box">
+
+            <h3>Contacto</h3>
+
+            <p>
+                📍 Cra 3 #43-49, Cali
+            </p>
+
+            <p>
+                📞 2442485
+            </p>
+
+            <p>
+                ✉ ie.republicadeisrael@cali.edu.co
+            </p>
+
+        </div>
+
+
+        <!-- REDES -->
+
+        <div class="footer-box">
+
+            <h3>Síguenos</h3>
+
+            <div class="footer-socials">
+
+                <a
+                    href="https://www.facebook.com/profile.php?id=100071049612506"
+                    target="_blank" aria-label="facebook">
+
+                    <i class="fab fa-facebook-f"></i>
+
+                </a>
+
+                <a
+                    href="https://www.instagram.com/ieri_cali/"
+                    target="_blank" aria-label="Instagram">
+                    
+
+                    <i class="fab fa-instagram"></i>
+
+                </a>
+
+                <a
+                    href="https://www.tiktok.com/@bio.cyclo.ieri"
+                    target="_blank" aria-label="tiktok">
+
+                    <i class="fab fa-tiktok"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- LINE -->
+
+    <div class="footer-line"></div>
+
+
+    <!-- COPYRIGHT -->
+
+    <div class="footer-bottom">
+
+        © 2026 Institución Educativa
+        República de Israel —
+        Todos los derechos reservados
+
+    </div>
+
+</footer>
+
+   
+
+    <!-- BOTON CHATBOT -->
+<a href="https://landbot.online/v3/H-3335844-ZU30JLDTY7R1N0HV/index.html" class="landbot-button" target="_blank" aria-label="Abrir ChatBot">
+    <div class="landbot-icon">
+    <img src="img/ChatBot.JPG" alt="Chatbot">
+
+    </div>
+
+    <span>ChatBot</span>
+</a>
+
+<!-- BOTON ABRIR -->
+
+<div class="calendar-float">
+
+    <button id="openCalendar" class="calendar-toggle">
+        <i class="fa-solid fa-calendar-days"></i>
+    </button>
+
+    <span class="calendar-label">
+        Calendario
+    </span>
+
+</div>
+
+
+<!-- POPUP -->
+
+<div class="calendar-popup" id="calendarPopup">
+
+    <div class="calendar-popup-box">
+
+        <span class="close-calendar" id="closeCalendar">
+            &times;
+        </span>
+
+        <h2>Calendario Escolar</h2>
+
+        <div class="calendar-box">
+
+            <div class="calendar-top">
+
+                <button id="prevMonth">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+
+                <h3 id="monthYear"></h3>
+
+                <button id="nextMonth">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+
+            </div>
+
+            <div class="calendar-days">
+
+                <div>Dom</div>
+                <div>Lun</div>
+                <div>Mar</div>
+                <div>Mié</div>
+                <div>Jue</div>
+                <div>Vie</div>
+                <div>Sáb</div>
+
+            </div>
+
+            <div class="calendar-dates" id="calendarDates"></div>
+
+            <div class="mini-event-box" id="eventBox">
+
+                <h3>Selecciona un día</h3>
+
+                <p>Haz clic sobre una fecha para ver eventos.</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="value-popup" id="valuePopup">
+
+    <div class="value-popup-box" id="valuePopupBox">
+
+        <span id="closeValuePopup">&times;</span>
+
+        <h2 id="popupTitle"></h2>
+
+        <p id="popupText"></p>
+
+    </div>
+
+</div>
+
+<!-- JS -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/app.js"></script>
+
+</body>
+</html>
